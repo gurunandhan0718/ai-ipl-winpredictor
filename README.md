@@ -2,6 +2,8 @@
 
 An interactive web application that predicts the winning probability of an IPL team during a live match using real-time input parameters and machine learning.
 
+## 🎯 Objective
+- To build a data-driven and user-interactive tool that enhances IPL viewing by predicting match outcomes in real time using machine learning.
 
 ## 📌 Project Description
 
@@ -35,38 +37,42 @@ aiipl-win-predictor/ │ ├── app.py # Main Streamlit app file
   ├── requirements.txt # Required Python packages
   
 ## ⚙️ How to Run
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/aiipl-win-predictor.git
+   cd aiipl-win-predictor
 
-  1. **Clone the Repository**
-     ```bash
-     git clone https://github.com/yourusername/aiipl-win-predictor.git
-     cd aiipl-win-predictor
+2. **Create a Virtual Environment**
+   ```bash
+   python -m venv .venv
 
-  2. **Create a Virtual Environment**
-      ```bash
-      python -m venv .venv
+3. **Activate the Virtual Environment**
 
-  3. **Activate the Virtual Environment**
-    On Windows:
-    ```bash
-     .venv\Scripts\activate ```
-     On macOS/Linux:
-    ```bash
-    source .venv/bin/activate
-    ```
-  4.**Install Dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
-``
-  5. ***Run the app***
-    ```bash
-    streamlit run app.py```
+- **On Windows:**
+```bash
+.venv\Scripts\activate
+```
+
+- **On macOS/Linux:**
+```bash
+source .venv/bin/activate
+```
+
+4. **Install Dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+5. **Run the App**
+
+```bash
+streamlit run app.py
+```
+
 The app will open in your default browser. If not, follow the URL printed in the terminal.
 
-🎯 Objective
-To build a data-driven and user-interactive tool that enhances IPL viewing by predicting match outcomes in real time using machine learning.
-
-🧪 Future Improvements
+## 🧪 Future Improvements
 . Integrate live API to fetch ongoing match data automatically
 . Improve prediction accuracy with ensemble models (e.g., Random Forest).
 . Add charts and historical comparison for user engagement
