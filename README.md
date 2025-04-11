@@ -53,12 +53,12 @@ aiipl-win-predictor/ │ ├── app.py # Main Streamlit app file
     ```bash
     source .venv/bin/activate
     ```
-    4.**Install Dependencies**
+  4.**Install Dependencies**
     ```bash
     pip install -r requirements.txt
     ```
 ``
-    5. ***Run the app***
+  5. ***Run the app***
     ```bash
     streamlit run app.py```
 The app will open in your default browser. If not, follow the URL printed in the terminal.
